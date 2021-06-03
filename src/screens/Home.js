@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import './Home.css'
 import SignIn from './SignIn'
 import {
@@ -34,7 +33,7 @@ function Home(props) {
 
                     <p className="text-muted mb-4">
                     <Link to="/sign-in">
-                      <a href="#">Sign-In</a>
+                      Sign-In
                       </Link>
                     </p>
                     <form>
